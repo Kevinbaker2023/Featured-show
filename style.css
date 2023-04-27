@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    width: 100vw;
+    background-color: black;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.nav, #ul {
+    display: inline-flex;
+}
+
+.featured {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/theater-image-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.date {
+    border: 1px solid black;
+    width: 65%;
+    height: 3vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    padding-left: 4.5vw;
+    padding-top: .5vh;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.shows {
+    display: inline-flex;
+    margin: 10px;
+    width: 100vw;
+    height: 20vh;
+}
+
+.footer {
+    display: inline-flex;
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    margin-top: 0;
+}
+
+#title {
+    padding-left: 10%;
+    padding-right: 20%;
+    color: white;
+    font-size: 25px;
+}
+
+#li {
+    display: inline;
+    padding-right: 80px;
+}
+
+#image-text {
+    color: white;
+    position: relative;
+    top: 40%;
+    font-size: 10vw;
+    text-align: center;
+}
+
+#vertical {
+    display: block;
+}
+
+#list {
+    display: block;
+}
+
+#ol {
+    padding-bottom: 3vh;
+    padding-right: 13vw;
+}
+
+#show-font {
+    padding-bottom: 3vh;
+    padding-right: 13vw;
+    font-size: 25px;
+}
+
+#map {
+    height:22vh;
+    width: 22vw;
+    padding-left: 8vw;
+    padding-top: 12vh;
+}
+
+#li-footer{
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+}
+
+#li-footer-padding {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+#li-footer-main {
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#hr-special {
+    width: 70%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#info {
+    padding-top: 12vh;
+    padding-left: 3vw;
+}
+
+#show-footer {
+    padding-top: 12vh;
+    padding-left: 14vw;
+}
+
+#social {
+    padding-top: 12vh;
+    padding-left: 14vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul a {
+    color: white;
+}
+
+img {
+    height: 20vh;
+    width: 13vw;
+    float: left;
+    padding-left: 18vw;
+    padding-right: 3vw;
+}
+
+ol {
+    list-style-type: none;
+}
+
+hr {
+    width: 70%;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+button {
+    background-color: #FB9E1D;
+    border-radius: 5px;
+    color: white;
+    height: 5vh;
+    width: 7vw;
+    font-size: 20px;
+    margin-left: 15.5vw;
+    margin-top: 6vh;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
